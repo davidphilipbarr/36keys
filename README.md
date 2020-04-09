@@ -27,3 +27,7 @@ All these pcbs can used the crkbd firmware.
 ## Why crab? 
 Crab is the alternate name for the medium invader, from space invaders, which the original board superficially resembled.
 
+## Pics
+![](crab/crab.png)
+
+![](crab/crab_render.png)
