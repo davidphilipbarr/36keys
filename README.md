@@ -6,7 +6,7 @@ Currently they all have 36 keys, which I consider to be as small as a keyboard c
 
 There are the first keyboard pcbs I have every made, so proceed with caution, and a little aprehension.
 
-These are heavily influenced by the following keyboards, and actually based on foostan's simple corne pcb.
+They are heavily influenced by the following keyboards, and actually based on foostan's simple corne pcb.
 
 * 5plit
 * Gergoplex
