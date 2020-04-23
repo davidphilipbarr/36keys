@@ -75,7 +75,7 @@
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
       (excludeedgelayer true)
-      (linewidth 0.150000)
+      (linewidth 0.100000)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
