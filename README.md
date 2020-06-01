@@ -59,10 +59,7 @@ These are all supposed to be used caseless and have no holes for cases or anythi
 
 ## Firmware
 
-All these pcbs can use the crkbd firmware. 
-
-## Why crab? 
-Crab is the alternative name for the medium invader, from space invaders, which the original board superficially resembled.
+All the split pcbs can use the crkbd firmware. 
 
 ## Build
 
