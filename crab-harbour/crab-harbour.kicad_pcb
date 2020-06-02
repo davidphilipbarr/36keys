@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 7)
+    (drawings 8)
     (tracks 285)
     (zones 0)
     (modules 38)
@@ -69,7 +69,7 @@
     (aux_axis_origin 145.73 12.66)
     (visible_elements FFFFEFFF)
     (pcbplotparams
-      (layerselection 0x010f0_ffffffff)
+      (layerselection 0x010c0_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -2243,13 +2243,14 @@
     )
   )
 
+  (gr_arc (start 37.876821 87.983263) (end 35.009924 87.97) (angle -90.52693434) (layer Edge.Cuts) (width 0.15) (tstamp 5ED66BFC))
+  (gr_arc (start 142.883294 87.983067) (end 142.87 90.849964) (angle -90.92679038) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 143.531624 23.340059) (end 145.751623 23.360058) (angle -91.07419804) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 36.04 89.79) (end 35.06 89.79) (angle -91.15733307) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 51.819952 37.930001) (end 51.85 21.12) (angle -90.23866858) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 143.510001 21.120075) (end 51.85 21.12) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5E8758B8))
-  (gr_line (start 35.009924 37.969976) (end 35.06 89.79) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 36.059794 90.7698) (end 145.74 90.86) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5C2969A9))
-  (gr_line (start 145.75 23.36) (end 145.74 90.86) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 35.009924 37.969976) (end 35.009924 87.97) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 37.89 90.85) (end 142.87 90.849964) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5C2969A9))
+  (gr_line (start 145.75 23.36) (end 145.75 87.949988) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 70.0015 26.17) (end 70.95 26.17) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 69.071199 27.100301) (end 70.0015 26.17) (width 0.25) (layer B.Cu) (net 1))
