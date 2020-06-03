@@ -14,7 +14,7 @@ The splits are heavily influenced by the following keyboards, and actually based
 * Kyria
 * Jian/Jorne/Jorian
 
-## Keyboards
+## Split keyboards
 
 ### Beak
 [link](beak)
@@ -28,6 +28,14 @@ Has a better curve
 [link](crab-10x10)
 Basically a 5plit, with serial instead of i2c.
 
+### Crab-DIO
+[link](crab DIO)
+34 keys, no diodes approx same layout as other crabs.
+
+### Crab-harbour
+[link](crab-harbour)
+36 keys in grid form, with pinky row dropped one whole row.
+
 ### Crab-ortho
 [link](crab-ortho)
 36 keys in grid form
@@ -36,6 +44,12 @@ Basically a 5plit, with serial instead of i2c.
 [link](crab)
 This was the first pcb, sort of like a gergoplex with promicros
 
+### Nodi
+[link](nodi)
+34 keys no diodes.  
+
+## Not even split keyboards.
+
 ### Macro 1
 [link](macro1)
 Five keys one encoder. 
@@ -43,10 +57,6 @@ Five keys one encoder.
 ### Macro 3
 [link](macro1)
 Six keys two encoders. 
-
-### Nodi
-[link](nodi)
-34 keys no diodes.  
 
 ### Noip
 [link](noip)
