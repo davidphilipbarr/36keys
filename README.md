@@ -6,7 +6,7 @@ Currently they mostly have 36 keys (or less) which I consider to be as small as 
 
 Proceed with caution, and a little apprehension.
 
-These are heavily influenced by the following keyboards, and actually based on foostan's simple corne pin layout and pcb. 
+The splits are heavily influenced by the following keyboards, and actually based on foostan's corne-light pin layout and pcb. 
 
 * 5plit
 * Gergoplex
@@ -59,13 +59,13 @@ These are all supposed to be used caseless and have no holes for cases or anythi
 
 ## Firmware
 
-All the split pcbs can use the crkbd firmware. 
+Most split pcbs can use the crkbd firmware, but not the ones with no diodes. 
 
 ## Build
 
 All splits are asymmetric builds, the controllers are facing down on the left side and up on the right (see picture).
 
-Only one screen can be used; on the left (which covers the flat back of the microcontroller) - the right side already has cool components showing, one screen is unnecessary, two screens is just silly. 
+Only one screen (if any at all) can be used; on the left (which covers the flat back of the microcontroller) - the right side already has cool components showing, one screen is unnecessary, two screens is just silly. 
 
 ## FAQs
 
