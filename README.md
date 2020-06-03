@@ -29,7 +29,7 @@ Has a better curve
 Basically a 5plit, with serial instead of i2c.
 
 ### Crab-DIO
-[link](crab DIO)
+[link](crab%20DIO)
 34 keys, no diodes approx same layout as other crabs.
 
 ### Crab-harbour
@@ -69,7 +69,8 @@ These are all supposed to be used caseless and have no holes for cases or anythi
 
 ## Firmware
 
-Most split pcbs can use the crkbd firmware, but not the ones with no diodes. 
+
+Most split pcbs can use the crkbd firmware, but not the ones with no diodes. Maybe such things can be found [here](qmk).
 
 ## Build
 
