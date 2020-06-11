@@ -17,15 +17,6 @@ enum custom_keycodes {
 
 #define KC_XXXXX KC_NO
 #define KC_RST   RESET
-#define KC_LRST  RGBRST
-#define KC_LTOG  RGB_TOG
-#define KC_LHUI  RGB_HUI
-#define KC_LHUD  RGB_HUD
-#define KC_LSAI  RGB_SAI
-#define KC_LSAD  RGB_SAD
-#define KC_LVAI  RGB_VAI
-#define KC_LVAD  RGB_VAD
-#define KC_LMOD  RGB_MOD
 #define KC_CTLTB CTL_T(KC_TAB)
 #define KC_GUIEI GUI_T(KC_LANG2)
 #define KC_ALTKN ALT_T(KC_LANG1)
@@ -78,9 +69,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //,-----------------------------------------.                ,-----------------------------------------.
      KC_F1,    KC_F2,    KC_F3,    KC_F4,   KC_F5,   			KC_F6,    KC_F7,    KC_F8,  KC_F9, KC_F10, \
 //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-     KC_LHUI,  KC_LSAI,  KC_LVAI, KC_LTOG, KC_XXXXX,                  KC_LMOD,KC_XXXXX, KC_XXXXX, KC_XXXXX, KC_XXXXX,\
+     KC_XXXXX,  KC_XXXXX,  KC_XXXXX, KC_XXXXX, KC_XXXXX,                  KC_XXXXX,KC_XXXXX, KC_XXXXX, KC_XXXXX, KC_XXXXX,\
 //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-     KC_LHUD,  KC_LSAD,  KC_LVAD, KC_LMOD, KC_CAPSLOCK,                  KC_LTOG, KC__MUTE, KC__VOLDOWN, KC__VOLUP, KC_XXXXX,\
+     KC_XXXXX, KC_XXXXX,  KC_XXXXX, KC_XXXXX, KC_CAPSLOCK,                 KC_XXXXX, KC__MUTE, KC__VOLDOWN, KC__VOLUP, KC_XXXXX,\
 //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                 KC_GUIEI, KC_LOWER,   KC_SPC,      KC_ENT, KC_RAISE, KC_ALTKN \
                             //`--------------------'  `--------------------'
