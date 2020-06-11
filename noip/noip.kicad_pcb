@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5-0-10_14)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4-0-10_14)")
 
   (general
     (thickness 1.6)
     (drawings 8)
-    (tracks 71)
+    (tracks 75)
     (zones 0)
     (modules 12)
     (nets 2)
@@ -1126,6 +1126,10 @@
   (segment (start 145.6 77.7) (end 145.6 57.8) (width 0.25) (layer B.Cu) (net 0))
   (segment (start 150.68 57.902919) (end 150.68 77.7) (width 0.25) (layer F.Cu) (net 0))
   (segment (start 148.14 64.19) (end 148.14 77.7) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 141.8 92.4) (end 129.8 104.4) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 141.8 73.09) (end 141.8 92.4) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 157.015 92.915) (end 168.5 104.4) (width 0.25) (layer F.Cu) (net 0))
+  (segment (start 157.015 73.09) (end 157.015 92.915) (width 0.25) (layer F.Cu) (net 0))
   (segment (start 242 71) (end 232 71) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 222.56316 57.9) (end 214 57.9) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 224 57.9) (end 222.56316 57.9) (width 0.25) (layer B.Cu) (net 1))
