@@ -41,7 +41,7 @@ enum custom_keycodes {
 #define KC_CTJ LCTL_T(KC_J)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-
+      
 [_QWERTY] = LAYOUT( \
 //,-----------------------------------------.                ,-----------------------------------------.
      KC_Q,     KC_W,     KC_E,     KC_R,     KC_T,                     		 KC_Y,     KC_U,     KC_I,     KC_O,     KC_P,\
@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //|------+------+------+------+------+------|                |------+------+------+------+------+------|
      KC_LSFTZ,     KC_X,     KC_C,     KC_V,     KC_B,                			 KC_N,     KC_M,  KC_COMM,   KC_DOT,  KC_SFTENT, \
 //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                LOWER,  KC_SPALT,    KC_SPALT, RAISE \
+                                LOWER,   KC_RGUI,    KC_SPC, RAISE \
                             //`--------------------'  `--------------------'
 ),
 
@@ -71,11 +71,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //,-----------------------------------------.                ,-----------------------------------------.
      KC_1,    KC_2,     KC_3,     KC_4,     KC_5,                     			 KC_6,     KC_7,     KC_8,     KC_9,     KC_0, \
 //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-     KC_TAB,  KC_SAVE,  KC_DQUO  ,  KC_PIPE,    KC_HASH,    					KC_MINS,   KC_EQL,  KC_LCBR,  KC_RCBR,  KC_DEL,\
+     KC_TAB,  KC_SAVE,  KC_DQUO  ,  KC_PIPE,   KC_HASH,    					KC_MINS,   KC_EQL,  KC_LCBR,  KC_RCBR,  KC_DEL,\
 //|------+------+------+------+------+------|                |------+------+------+------+------+------|
      KC_GESC, KC_TILD,   KC_NUBS,   KC_NUHS,  KC_NONUS_HASH,          		KC_MINS, KC_GRV, KC_LBRC, KC_RBRC, KC_BSPC,\
 //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
-                                 LOWER,  KC_RGUI,     KC_SPC, RAISE \
+                                 LOWER,  KC_RGUI,     KC_SPC, KC_LALT \
 
 ),
 
