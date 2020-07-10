@@ -1,0 +1,212 @@
+EESchema Schematic File Version 4
+LIBS:meishi-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "meishi"
+Date "2019-04-16"
+Rev "0.1"
+Comp "foostan"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L kbd:ProMicro U1
+U 1 1 5CB5CE1D
+P 2600 1800
+F 0 "U1" H 2600 2837 60  0000 C CNN
+F 1 "ProMicro" H 2600 2731 60  0000 C CNN
+F 2 "kbd:ProMicro_v2_1side" H 2700 750 60  0001 C CNN
+F 3 "" H 2700 750 60  0000 C CNN
+	1    2600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5CB5CEB9
+P 1075 800
+F 0 "#FLG0101" H 1075 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 1075 974 50  0000 C CNN
+F 2 "" H 1075 800 50  0001 C CNN
+F 3 "~" H 1075 800 50  0001 C CNN
+	1    1075 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5CB5CEE5
+P 725 800
+F 0 "#FLG0102" H 725 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 725 973 50  0000 C CNN
+F 2 "" H 725 800 50  0001 C CNN
+F 3 "~" H 725 800 50  0001 C CNN
+	1    725  800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5CB5CF52
+P 725 800
+F 0 "#PWR0101" H 725 650 50  0001 C CNN
+F 1 "VCC" H 742 973 50  0000 C CNN
+F 2 "" H 725 800 50  0001 C CNN
+F 3 "" H 725 800 50  0001 C CNN
+	1    725  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CB5CFBD
+P 1075 800
+F 0 "#PWR0102" H 1075 550 50  0001 C CNN
+F 1 "GND" H 1080 627 50  0000 C CNN
+F 2 "" H 1075 800 50  0001 C CNN
+F 3 "" H 1075 800 50  0001 C CNN
+	1    1075 800 
+	1    0    0    -1  
+$EndComp
+Text Label 1900 1250 2    50   ~ 0
+GND
+Text Label 1900 1350 2    50   ~ 0
+GND
+Text Label 3300 1150 0    50   ~ 0
+GND
+Text Label 3300 1350 0    50   ~ 0
+VCC
+Text Label 3300 1450 0    50   ~ 0
+SW_1
+NoConn ~ 1900 1050
+NoConn ~ 1900 1150
+NoConn ~ 1900 1450
+NoConn ~ 1900 1550
+NoConn ~ 3300 2050
+NoConn ~ 3300 2150
+NoConn ~ 1900 2150
+NoConn ~ 1900 2050
+NoConn ~ 1900 1950
+NoConn ~ 1900 1850
+NoConn ~ 1900 1750
+NoConn ~ 3300 1050
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 5CB5D7EA
+P 4150 1775
+F 0 "SW1" H 4150 2030 50  0000 C CNN
+F 1 "SW_PUSH" H 4150 1939 50  0000 C CNN
+F 2 "kbd:CherryMX_1u" H 4150 1775 50  0001 C CNN
+F 3 "" H 4150 1775 50  0000 C CNN
+	1    4150 1775
+	1    0    0    -1  
+$EndComp
+Text Label 3300 1250 0    50   ~ 0
+RESET
+Text Label 3875 1250 2    50   ~ 0
+RESET
+$Comp
+L Switch:SW_Push RSW1
+U 1 1 5CB5EA0E
+P 4075 1250
+F 0 "RSW1" H 4075 1535 50  0000 C CNN
+F 1 "SW_Push" H 4075 1444 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 4075 1450 50  0001 C CNN
+F 3 "" H 4075 1450 50  0001 C CNN
+	1    4075 1250
+	1    0    0    -1  
+$EndComp
+Text Label 4275 1250 0    50   ~ 0
+GND
+NoConn ~ 1900 1650
+Text Label 3300 1550 0    50   ~ 0
+SW_2
+Text Label 3300 1650 0    50   ~ 0
+SW_3
+Text Label 3300 1750 0    50   ~ 0
+SW_4
+Text Label 3300 1850 0    50   ~ 0
+SW_5
+Text Label 3300 1950 0    50   ~ 0
+SW_6
+Text Label 3850 1775 2    50   ~ 0
+SW_1
+Text Label 4450 1775 0    50   ~ 0
+GND
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 5CB5EE19
+P 5175 1775
+F 0 "SW2" H 5175 2030 50  0000 C CNN
+F 1 "SW_PUSH" H 5175 1939 50  0000 C CNN
+F 2 "kbd:CherryMX_1u" H 5175 1775 50  0001 C CNN
+F 3 "" H 5175 1775 50  0000 C CNN
+	1    5175 1775
+	1    0    0    -1  
+$EndComp
+Text Label 4875 1775 2    50   ~ 0
+SW_2
+Text Label 5475 1775 0    50   ~ 0
+GND
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 5CB5EE40
+P 6200 1775
+F 0 "SW3" H 6200 2030 50  0000 C CNN
+F 1 "SW_PUSH" H 6200 1939 50  0000 C CNN
+F 2 "kbd:CherryMX_1u" H 6200 1775 50  0001 C CNN
+F 3 "" H 6200 1775 50  0000 C CNN
+	1    6200 1775
+	1    0    0    -1  
+$EndComp
+Text Label 5900 1775 2    50   ~ 0
+SW_3
+Text Label 6500 1775 0    50   ~ 0
+GND
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 5CB5EE8C
+P 4150 2225
+F 0 "SW4" H 4150 2480 50  0000 C CNN
+F 1 "SW_PUSH" H 4150 2389 50  0000 C CNN
+F 2 "kbd:CherryMX_1u" H 4150 2225 50  0001 C CNN
+F 3 "" H 4150 2225 50  0000 C CNN
+	1    4150 2225
+	1    0    0    -1  
+$EndComp
+Text Label 3850 2225 2    50   ~ 0
+SW_4
+Text Label 4450 2225 0    50   ~ 0
+GND
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 5CB5EE94
+P 5175 2225
+F 0 "SW5" H 5175 2480 50  0000 C CNN
+F 1 "SW_PUSH" H 5175 2389 50  0000 C CNN
+F 2 "kbd:CherryMX_1u" H 5175 2225 50  0001 C CNN
+F 3 "" H 5175 2225 50  0000 C CNN
+	1    5175 2225
+	1    0    0    -1  
+$EndComp
+Text Label 4875 2225 2    50   ~ 0
+SW_5
+Text Label 5475 2225 0    50   ~ 0
+GND
+$Comp
+L kbd:SW_PUSH SW6
+U 1 1 5CB5EE9C
+P 6200 2225
+F 0 "SW6" H 6200 2480 50  0000 C CNN
+F 1 "SW_PUSH" H 6200 2389 50  0000 C CNN
+F 2 "kbd:CherryMX_1u" H 6200 2225 50  0001 C CNN
+F 3 "" H 6200 2225 50  0000 C CNN
+	1    6200 2225
+	1    0    0    -1  
+$EndComp
+Text Label 5900 2225 2    50   ~ 0
+SW_6
+Text Label 6500 2225 0    50   ~ 0
+GND
+$EndSCHEMATC
