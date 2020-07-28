@@ -31,9 +31,9 @@ Aren't all the splits basically the same board with the keys shuffled around? Ye
 
 ## Family
 
-Besom r - Screen reversible pm footprint
-Besom 10x10 
-Besom Ortho
-Besom Ortho Drop - Droppped pinky
-Besom S - No Screen 1 way pm (Where am I?)
-Besom Pure - No Screen reversible pm footprint
+* Besom r - Screen reversible pm footprint
+* Besom 10x10 
+* Besom Ortho
+* Besom Ortho Drop - Droppped pinky
+* Besom S - No Screen 1 way pm (Where am I?)
+* Besom Pure - No Screen reversible pm footprint
