@@ -13,7 +13,8 @@ The splits are heavily influenced by the following keyboards, and actually based
 * crkbd
 * Kyria
 * Jian/Jorne/Jorian
-
+* Ferris
+* Squiggle
 
 ## Caseless
 
@@ -27,3 +28,12 @@ Most split pcbs can use the crkbd firmware, but not the ones with no diodes. May
 ## FAQs
 
 Aren't all the splits basically the same board with the keys shuffled around? Yes.
+
+## Family
+
+Besom r - Screen reversible pm footprint
+Besom 10x10 
+Besom Ortho
+Besom Ortho Drop - Droppped pinky
+Besom S - No Screen 1 way pm (Where am I?)
+Besom Pure - No Screen reversible pm footprint

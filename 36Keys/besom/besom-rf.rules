@@ -1,5 +1,5 @@
 
-(rules PCB crabby
+(rules PCB crabbyf
   (snap_angle 
     fortyfive_degree
   )
@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1384)
+    (start_pass_no 1949)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -67,7 +67,8 @@
     "Net-(D6-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)"
     "Net-(D16-Pad2)" "Net-(D17-Pad2)" "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" GND VCC
     col0 col1 col2 col3 col4 col5 LED data
-    reset SCL SDA "Net-(U1-Pad24)" "Net-(J1-PadA)"
+    reset SCL SDA "Net-(U1-Pad14)" "Net-(U1-Pad24)" "Net-(J1-PadA)" "Net-(U1-Pad13)" "Net-(U1-Pad12)"
+    "Net-(U1-Pad11)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

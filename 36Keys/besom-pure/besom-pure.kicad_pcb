@@ -11,10 +11,10 @@
 
   (page A4)
   (title_block
-    (title "Besom Simple")
-    (date 2020-07-26)
-    (rev 1.0)
-    (company broomlabs)
+    (title "Corne Light")
+    (date 2018-12-26)
+    (rev 2.1)
+    (company foostan)
   )
 
   (layers
