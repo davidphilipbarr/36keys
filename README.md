@@ -35,5 +35,5 @@ Aren't all the splits basically the same board with the keys shuffled around? Ye
 * Besom 10x10 
 * Besom Ortho
 * Besom Ortho Drop - Droppped pinky
-* Besom S - No Screen 1 way pm (Where am I?)
+* Besom S - No Screen 1 way pm
 * Besom Pure - No Screen reversible pm footprint
