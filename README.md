@@ -1,5 +1,4 @@
 # So what we got here then? 
-[link](beakX)
 Behold. Here are some really basic PCBs that only support kailh choc low profile switches.
 
 Currently they mostly have 36 keys (or less) which I consider to be as small as a keyboard can be without resorting to chording or other shenanigans.
