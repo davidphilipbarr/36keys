@@ -1,4 +1,4 @@
-18136579631832965
+18138180782275965
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -54773,6 +54773,13 @@ Kailh "Choc" PG1350 keyswitch
 kailh,choc
 0
 2
+2
+Kailh
+SW_PG1350_15_reversible_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+3
 2
 Kailh
 SW_PG1350_b2
