@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2988)
+    (start_pass_no 4167)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -53,6 +53,7 @@
     "kicad_default" "Via[0-1]_600:400_um-kicad_default"
   )
   (class default
+    "@:no_net_0" "@:no_net_1"
     (clearance_class default)
     (via_rule default)
     (rule

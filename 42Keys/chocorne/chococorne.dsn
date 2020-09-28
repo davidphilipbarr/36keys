@@ -27,12 +27,11 @@
             132390 -49194  149400 -49194  149529 -49211.1  149650 -49261
             149753 -49340.5  149833 -49444  149882 -49564.6  149900 -49694
             149900 -51194  149917 -51323.4  149967 -51444  150046 -51547.6
-            150150 -51627  150270 -51677  150400 -51694  167030 -51680  167159 -51697
-            167280 -51747  167384 -51826.4  167463 -51930  167513 -52050.6
-            167530 -52180  167530 -52470  167547 -52599.4  167597 -52720
-            167676 -52823.6  167780 -52903  167901 -52953  168030 -52970
-            187660 -52960  187789 -52977  187910 -53027  188014 -53106.4
-            188093 -53210  188143 -53330.6  188160 -53460  188200 -112870
+            150150 -51627  150270 -51677  150400 -51694  167030 -51680  167165 -51698.6
+            167290 -51753.2  167396 -51839.5  167475 -51951.2  167520 -52080
+            167571 -52197.6  167651 -52298.2  167754 -52375.2  167873 -52423.5
+            168000 -52440  187620 -52430  187749 -52447  187870 -52497  187974 -52576.4
+            188053 -52680  188103 -52800.6  188120 -52930  188200 -112870
             175950 -134050  175798 -134239  175616 -134399  175409 -134524
             175183 -134612  174945 -134658  174703 -134663  174463 -134625
             174234 -134547  174022 -134429  160465 -126604  160140 -126523
@@ -64,6 +63,13 @@
             112180 -47011  112300 -46961.1  112430 -46944  131390 -46944
             131519 -46961.1)
     )
+    (plane @:no_net_0 (polygon F.Cu 0  190720 -50310  195030 -106610  176510 -137050  160030 -128420
+            125280 -124870  113110 -110670  58570 -110420  56407 -112583
+            56540 -113970  56040 -112950  56407 -112583  49950 -45230  126040 -44470
+            190720 -50310))
+    (plane @:no_net_1 (polygon B.Cu 0  198830 -105850  173980 -142630  172960 -141610  161300 -131470
+            126800 -129690  111840 -113710  56040 -114220  52990 -45990
+            193250 -45740  198830 -105850))
     (keepout "" (polygon signal 0  76700.1 -83651.1  76579.5 -83701  76476 -83780.5  76396.5 -83884
             76346.6 -84004.6  76329.5 -84134  76329.5 -99134  76346.6 -99263.4
             76396.5 -99384  76476 -99487.6  76579.5 -99567  76700.1 -99617
@@ -87,29 +93,58 @@
     )
   )
   (placement
+    (component kbd:D3_TH_SMD
+      (place D13 68050 -91050 front 180 (PN D))
+      (place D7 67960 -74350 front 180 (PN D))
+      (place D1 59820 -62520 front 270 (PN D))
+      (place D2 94750 -64040 front 270 (PN D))
+      (place D3 113030 -55880 front 270 (PN D))
+      (place D4 130810 -55880 front 270 (PN D))
+      (place D6 148900 -66390 front 270 (PN D))
+      (place D8 94980 -76540 front 270 (PN D))
+      (place D9 113030 -74025 front 270 (PN D))
+      (place D10 130920 -68360 front 270 (PN D))
+      (place D11 157070 -69890 front 0 (PN D))
+      (place D12 148950 -76675 front 270 (PN D))
+      (place D14 94480 -94475 front 270 (PN D))
+      (place D15 113030 -93025 front 270 (PN D))
+      (place D16 130890 -81180 front 270 (PN D))
+      (place D17 157450 -86910 front 0 (PN D))
+      (place D18 149050 -87240 front 270 (PN D))
+      (place D19 139270 -84480 front 0 (PN D))
+      (place D20 130910 -94070 front 270 (PN D))
+      (place D21 149050 -97120 front 270 (PN D))
+      (place D5 148890 -56020 front 270 (PN D))
+    )
+    (component kbd:LEGO_HOLE
+      (place H1 185680 -106130 front 0 (PN h1))
+    )
+    (component kbd:LEGO_HOLE::1
+      (place h2 171180 -97630 front 0 (PN h2))
+    )
     (component Kailh:SW_PG1350_15_reversible_b2
       (place SW21 174660 -118790 front 240 (PN SW_PUSH))
     )
     (component kbd:ResetSW
-      (place RSW1 169850 -100830 front 90 (PN Val**))
+      (place RSW1 186030 -90930 front 90 (PN Val**))
     )
     (component foostan:Jumper
-      (place JP66 178810 -87810 back 90 (PN SCL))
-      (place JP61 173680 -87860 front 270 (PN " SDA"))
-      (place JP62 173680 -87869.6 back 90 (PN GND))
-      (place JP65 178820 -87810 front 270 (PN VCC))
+      (place JP66 179550 -86780 back 90 (PN SCL))
+      (place JP61 174420 -86830 front 270 (PN " SDA"))
+      (place JP62 174420 -86839.6 back 90 (PN GND))
+      (place JP65 179560 -86780 front 270 (PN VCC))
     )
     (component foostan:Jumper::1
-      (place JP68 181390 -87800.4 front 270 (PN GND))
-      (place JP6 181390 -87790 back 90 (PN " SDA"))
-      (place JP63 176220 -87830 front 270 (PN SCL))
-      (place JP64 176230 -87840 back 90 (PN VCC))
+      (place JP68 182130 -86770.4 front 270 (PN GND))
+      (place JP6 182130 -86760 back 90 (PN " SDA"))
+      (place JP63 176960 -86800 front 270 (PN SCL))
+      (place JP64 176970 -86810 back 90 (PN VCC))
     )
     (component foostan:OLED
-      (place J2 173680 -90470 front 0 (PN OLED))
+      (place J2 174420 -89440 front 0 (PN OLED))
     )
     (component "kbd:MJ-4PP-9"
-      (place J1 186140 -97620 front 270 (PN "MJ-4PP-9"))
+      (place J1 187960 -100170 front 270 (PN "MJ-4PP-9"))
     )
     (component chocs:SW_PG1350_reversible_b2
       (place SW20 154060 -115580 front 165 (PN SW_PUSH))
@@ -134,35 +169,66 @@
       (place SW1 67910 -65580 front 0 (PN SW_PUSH))
     )
     (component kbd:ProMicro_v2
-      (place U1 178410 -71380 front 0 (PN ProMicro))
-    )
-    (component kbd:D3_TH
-      (place D13 68050 -91050 front 180 (PN D))
-      (place D7 67960 -74350 front 180 (PN D))
-      (place D1 59820 -62520 front 270 (PN D))
-      (place D3 113030 -55880 front 270 (PN D))
-      (place D9 113030 -74025 front 270 (PN D))
-      (place D16 130890 -81180 front 270 (PN D))
-    )
-    (component kbd:D3_TH::1
-      (place D2 94750 -64040 front 270 (PN D))
-      (place D4 130810 -55880 front 270 (PN D))
-      (place D5 148890 -56020 front 270 (PN D))
-      (place D6 148960 -64610 front 270 (PN D))
-      (place D8 94980 -76540 front 270 (PN D))
-      (place D10 130810 -71650 front 270 (PN D))
-      (place D11 148980 -73040 front 270 (PN D))
-      (place D12 148980 -81590 front 270 (PN D))
-      (place D14 94480 -94475 front 270 (PN D))
-      (place D15 113030 -93025 front 270 (PN D))
-      (place D17 149000 -90470 front 270 (PN D))
-      (place D18 148980 -99210 front 270 (PN D))
-      (place D19 130990 -89370 front 270 (PN D))
-      (place D20 131060 -97620 front 270 (PN D))
-      (place D21 167360 -92680 front 270 (PN D))
+      (place U1 179020 -70960 front 0 (PN ProMicro))
     )
   )
   (library
+    (image kbd:D3_TH_SMD
+      (outline (path signal 150  2700 -750  2700 750))
+      (outline (path signal 150  -2700 -750  2700 -750))
+      (outline (path signal 150  -2700 750  -2700 -750))
+      (outline (path signal 150  2700 750  -2700 750))
+      (outline (path signal 150  2700 -750  2700 750))
+      (outline (path signal 150  -2700 -750  2700 -750))
+      (outline (path signal 150  -2700 750  -2700 -750))
+      (outline (path signal 150  2700 750  -2700 750))
+      (outline (path signal 150  -500 500  -500 -500))
+      (outline (path signal 150  500 -500  -400 0))
+      (outline (path signal 150  500 500  500 -500))
+      (outline (path signal 150  -400 0  500 500))
+      (outline (path signal 150  -500 500  -500 -500))
+      (outline (path signal 150  500 -500  -400 0))
+      (outline (path signal 150  500 500  500 -500))
+      (outline (path signal 150  -400 0  500 500))
+      (pin Rect[T]Pad_1300x950_um 2 1775 0)
+      (pin Round[A]Pad_1397_um 2@1 3810 0)
+      (pin Rect[A]Pad_1397x1397_um 1 -3810 0)
+      (pin Rect[B]Pad_1300x950_um 1@1 -1775 0)
+      (pin Rect[B]Pad_1300x950_um 2@2 1775 0)
+      (pin Rect[T]Pad_1300x950_um 1@2 -1775 0)
+    )
+    (image kbd:LEGO_HOLE
+      (outline (path signal 150  2200 0  2118.42 -593.553  1879.72 -1143.09  1501.62 -1607.84
+            1012.14 -1953.35  447.603 -2153.99  -150.133 -2194.87  -736.735 -2072.97
+            -1268.7 -1797.33  -1706.57 -1388.39  -2017.87 -876.482  -2179.51 -299.567
+            -2179.51 299.567  -2017.87 876.482  -1706.57 1388.39  -1268.7 1797.33
+            -736.735 2072.97  -150.133 2194.87  447.603 2153.99  1012.14 1953.35
+            1501.62 1607.84  1879.72 1143.09  2118.42 593.553  2200 0))
+      (outline (path signal 50  2450 0  2373.03 -609.29  2146.95 -1180.3  1785.97 -1677.14
+            1312.78 -2068.6  757.092 -2330.09  153.837 -2445.16  -459.084 -2406.6
+            -1043.16 -2216.83  -1561.69 -1887.76  -1982.09 -1440.07  -2277.95 -901.905
+            -2430.68 -307.066  -2430.68 307.066  -2277.95 901.905  -1982.09 1440.07
+            -1561.69 1887.76  -1043.16 2216.83  -459.084 2406.6  153.837 2445.16
+            757.092 2330.09  1312.78 2068.6  1785.97 1677.14  2146.95 1180.3
+            2373.03 609.29  2450 0))
+      (pin Round[A]Pad_4000_um H1 0 0)
+    )
+    (image kbd:LEGO_HOLE::1
+      (outline (path signal 150  2200 0  2118.42 -593.553  1879.72 -1143.09  1501.62 -1607.84
+            1012.14 -1953.35  447.603 -2153.99  -150.133 -2194.87  -736.735 -2072.97
+            -1268.7 -1797.33  -1706.57 -1388.39  -2017.87 -876.482  -2179.51 -299.567
+            -2179.51 299.567  -2017.87 876.482  -1706.57 1388.39  -1268.7 1797.33
+            -736.735 2072.97  -150.133 2194.87  447.603 2153.99  1012.14 1953.35
+            1501.62 1607.84  1879.72 1143.09  2118.42 593.553  2200 0))
+      (outline (path signal 50  2450 0  2373.03 -609.29  2146.95 -1180.3  1785.97 -1677.14
+            1312.78 -2068.6  757.092 -2330.09  153.837 -2445.16  -459.084 -2406.6
+            -1043.16 -2216.83  -1561.69 -1887.76  -1982.09 -1440.07  -2277.95 -901.905
+            -2430.68 -307.066  -2430.68 307.066  -2277.95 901.905  -1982.09 1440.07
+            -1561.69 1887.76  -1043.16 2216.83  -459.084 2406.6  153.837 2445.16
+            757.092 2330.09  1312.78 2068.6  1785.97 1677.14  2146.95 1180.3
+            2373.03 609.29  2450 0))
+      (pin Round[A]Pad_4000_um h2 0 0)
+    )
     (image Kailh:SW_PG1350_15_reversible_b2
       (outline (path signal 120  13400 -8520  13400 8480))
       (outline (path signal 120  -13600 8500  13400 8480))
@@ -411,30 +477,6 @@
       (pin Round[A]Pad_1524_um 23@1 -7563.6 11938)
       (pin Round[A]Pad_1524_um 24@1 -7563.6 14478)
     )
-    (image kbd:D3_TH
-      (outline (path signal 150  -500 500  -500 -500))
-      (outline (path signal 150  500 -500  -400 0))
-      (outline (path signal 150  500 500  500 -500))
-      (outline (path signal 150  -400 0  500 500))
-      (outline (path signal 150  -500 500  -500 -500))
-      (outline (path signal 150  500 -500  -400 0))
-      (outline (path signal 150  500 500  500 -500))
-      (outline (path signal 150  -400 0  500 500))
-      (pin Rect[A]Pad_1397x1397_um 1 -3000 0)
-      (pin Round[A]Pad_1397_um 2 3000 0)
-    )
-    (image kbd:D3_TH::1
-      (outline (path signal 150  -400 0  500 500))
-      (outline (path signal 150  500 500  500 -500))
-      (outline (path signal 150  500 -500  -400 0))
-      (outline (path signal 150  -500 500  -500 -500))
-      (outline (path signal 150  -400 0  500 500))
-      (outline (path signal 150  500 500  500 -500))
-      (outline (path signal 150  500 -500  -400 0))
-      (outline (path signal 150  -500 500  -500 -500))
-      (pin Round[A]Pad_1397_um 2 3000 0)
-      (pin Rect[A]Pad_1397x1397_um 1 -3000 0)
-    )
     (padstack Round[A]Pad_1397_um
       (shape (circle F.Cu 1397))
       (shape (circle B.Cu 1397))
@@ -455,13 +497,26 @@
       (shape (circle B.Cu 2032))
       (attach off)
     )
+    (padstack Round[A]Pad_4000_um
+      (shape (circle F.Cu 4000))
+      (shape (circle B.Cu 4000))
+      (attach off)
+    )
     (padstack Oval[A]Pad_1700x2500_um
       (shape (path F.Cu 1700  0 -400  0 400))
       (shape (path B.Cu 1700  0 -400  0 400))
       (attach off)
     )
+    (padstack Rect[B]Pad_1300x950_um
+      (shape (rect B.Cu -650 -475 650 475))
+      (attach off)
+    )
     (padstack Rect[T]Pad_635x1143_um
       (shape (rect F.Cu -317.5 -571.5 317.5 571.5))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1300x950_um
+      (shape (rect F.Cu -650 -475 650 475))
       (attach off)
     )
     (padstack Rect[A]Pad_1397x1397_um
@@ -476,71 +531,79 @@
     )
   )
   (network
+    (net @:no_net_0
+    )
+    (net @:no_net_1
+    )
     (net row0
-      (pins U1-7 U1-7@1 D1-1 D2-1 D3-1 D4-1 D5-1 D6-1)
+      (pins D1-1 D1-1@1 D1-1@2 D2-1 D2-1@1 D2-1@2 D3-1 D3-1@1 D3-1@2 D4-1 D4-1@1 D4-1@2
+        D6-1 D6-1@1 D6-1@2 D5-1 D5-1@1 D5-1@2 U1-7 U1-7@1)
     )
     (net row1
-      (pins U1-8 U1-8@1 D7-1 D8-1 D9-1 D10-1 D11-1 D12-1)
+      (pins D7-1 D7-1@1 D7-1@2 D8-1 D8-1@1 D8-1@2 D9-1 D9-1@1 D9-1@2 D10-1 D10-1@1
+        D10-1@2 D11-1 D11-1@1 D11-1@2 D12-1 D12-1@1 D12-1@2 U1-8 U1-8@1)
     )
     (net "Net-(D2-Pad2)"
-      (pins SW2-2 SW2-2@1 D2-2)
+      (pins D2-2 D2-2@1 D2-2@2 SW2-2 SW2-2@1)
     )
     (net row2
-      (pins U1-9 U1-9@1 D13-1 D14-1 D15-1 D16-1 D17-1 D18-1)
+      (pins D13-1 D13-1@1 D13-1@2 D14-1 D14-1@1 D14-1@2 D15-1 D15-1@1 D15-1@2 D16-1
+        D16-1@1 D16-1@2 D17-1 D17-1@1 D17-1@2 D18-1 D18-1@1 D18-1@2 U1-9 U1-9@1)
     )
     (net "Net-(D3-Pad2)"
-      (pins SW3-2 SW3-2@1 D3-2)
+      (pins D3-2 D3-2@1 D3-2@2 SW3-2 SW3-2@1)
     )
     (net row3
-      (pins U1-10 U1-10@1 D19-1 D20-1 D21-1)
+      (pins D19-1 D19-1@1 D19-1@2 D20-1 D20-1@1 D20-1@2 D21-1 D21-1@1 D21-1@2 U1-10
+        U1-10@1)
     )
     (net "Net-(D4-Pad2)"
-      (pins SW4-2 SW4-2@1 D4-2)
+      (pins D4-2 D4-2@1 D4-2@2 SW4-2 SW4-2@1)
     )
     (net "Net-(D5-Pad2)"
-      (pins SW5-2 SW5-2@1 D5-2)
+      (pins D5-2 D5-2@1 D5-2@2 SW5-2 SW5-2@1)
     )
     (net "Net-(D6-Pad2)"
-      (pins SW6-2 SW6-2@1 D6-2)
+      (pins D6-2 D6-2@1 D6-2@2 SW6-2 SW6-2@1)
     )
     (net "Net-(D8-Pad2)"
-      (pins SW8-2 SW8-2@1 D8-2)
+      (pins D8-2 D8-2@1 D8-2@2 SW8-2 SW8-2@1)
     )
     (net "Net-(D9-Pad2)"
-      (pins SW9-2 SW9-2@1 D9-2)
+      (pins D9-2 D9-2@1 D9-2@2 SW9-2 SW9-2@1)
     )
     (net "Net-(D10-Pad2)"
-      (pins SW10-2 SW10-2@1 D10-2)
+      (pins D10-2 D10-2@1 D10-2@2 SW10-2 SW10-2@1)
     )
     (net "Net-(D11-Pad2)"
-      (pins SW11-2 SW11-2@1 D11-2)
+      (pins D11-2 D11-2@1 D11-2@2 SW11-2 SW11-2@1)
     )
     (net "Net-(D12-Pad2)"
-      (pins SW12-2 SW12-2@1 D12-2)
+      (pins D12-2 D12-2@1 D12-2@2 SW12-2 SW12-2@1)
     )
     (net "Net-(D14-Pad2)"
-      (pins SW14-2 SW14-2@1 D14-2)
+      (pins D14-2 D14-2@1 D14-2@2 SW14-2 SW14-2@1)
     )
     (net "Net-(D15-Pad2)"
-      (pins SW15-2 SW15-2@1 D15-2)
+      (pins D15-2 D15-2@1 D15-2@2 SW15-2 SW15-2@1)
     )
     (net "Net-(D16-Pad2)"
-      (pins SW16-2 SW16-2@1 D16-2)
+      (pins D16-2 D16-2@1 D16-2@2 SW16-2 SW16-2@1)
     )
     (net "Net-(D17-Pad2)"
-      (pins SW17-2 SW17-2@1 D17-2)
+      (pins D17-2 D17-2@1 D17-2@2 SW17-2 SW17-2@1)
     )
     (net "Net-(D18-Pad2)"
-      (pins SW18-2 SW18-2@1 D18-2)
+      (pins D18-2 D18-2@1 D18-2@2 SW18-2 SW18-2@1)
     )
     (net "Net-(D19-Pad2)"
-      (pins SW19-2 SW19-2@1 D19-2)
+      (pins D19-2 D19-2@1 D19-2@2 SW19-2 SW19-2@1)
     )
     (net "Net-(D20-Pad2)"
-      (pins SW20-2 SW20-2@1 D20-2)
+      (pins D20-2 D20-2@1 D20-2@2 SW20-2 SW20-2@1)
     )
     (net "Net-(D21-Pad2)"
-      (pins SW21-2 SW21-2@1 D21-2)
+      (pins D21-2 D21-2@1 D21-2@2 SW21-2 SW21-2@1)
     )
     (net GND
       (pins RSW1-1 JP68-1 JP62-1 J1-C J1-C@1 U1-23 U1-4 U1-3 U1-3@1 U1-4@1 U1-23@1)
@@ -600,13 +663,13 @@
       (pins JP62-2 U1-24 U1-24@1)
     )
     (net "Net-(D1-Pad2)"
-      (pins SW1-2 SW1-2@1 D1-2)
+      (pins D1-2 D1-2@1 D1-2@2 SW1-2 SW1-2@1)
     )
     (net "Net-(D7-Pad2)"
-      (pins SW7-2 SW7-2@1 D7-2)
+      (pins D7-2 D7-2@1 D7-2@2 SW7-2 SW7-2@1)
     )
     (net "Net-(D13-Pad2)"
-      (pins SW13-2 SW13-2@1 D13-2)
+      (pins D13-2 D13-2@1 D13-2@2 SW13-2 SW13-2@1)
     )
     (class kicad_default "" GND LED "Net-(D1-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)"
       "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D14-Pad2)" "Net-(D15-Pad2)"
