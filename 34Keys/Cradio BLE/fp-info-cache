@@ -1,4 +1,4 @@
-47617164059489
+52414437108489
 Kailh
 Kailh_socket_MX
 MX-style keyswitch with Kailh socket mount
@@ -55,6 +55,20 @@ kailh,choc
 0
 4
 2
+Kailh
+SPDT_C128955
+
+
+0
+7
+4
+Kailh
+SPDT_C128955r
+
+
+0
+7
+4
 Kailh
 SW_MX
 MX-style keyswitch
@@ -124,6 +138,13 @@ Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB and/or
 kailh,choc
 0
 6
+2
+Kailh
+SW_PG1350_single_b2
+Kailh "Choc" PG1350 keyswitch, able to be mounted on front or back of PCB
+kailh,choc
+0
+2
 2
 Kailh
 SW_PG1350b

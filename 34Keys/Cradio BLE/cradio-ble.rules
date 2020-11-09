@@ -1,5 +1,5 @@
 
-(rules PCB crab-dio
+(rules PCB cradio
   (snap_angle 
     fortyfive_degree
   )
@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 99)
+    (start_pass_no 424)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -65,7 +65,7 @@
   (class "kicad_default"
     row0 row1 row2 row3 "Net-(D20-Pad2)" GND VCC col1
     col2 col3 col4 col5 LED data reset SCL
-    SDA "Net-(U1-Pad14)" "Net-(U1-Pad13)" "Net-(U1-Pad12)" "Net-(U1-Pad11)" "Net-(J1-PadA)" "Net-(U1-Pad24)"
+    SDA "Net-(U1-Pad14)" "Net-(U1-Pad13)" "Net-(U1-Pad12)" "Net-(U1-Pad11)" "Net-(U1-Pad24)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
