@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MJ-4PP-9-kbd-corne-light-rescue
+# MJ-4PP-9-kbd
 #
-DEF MJ-4PP-9-kbd-corne-light-rescue J 0 40 Y Y 1 F N
+DEF MJ-4PP-9-kbd J 0 40 Y Y 1 F N
 F0 "J" 0 150 50 H V C CNN
-F1 "MJ-4PP-9-kbd-corne-light-rescue" 0 -150 50 H V C CNN
+F1 "MJ-4PP-9-kbd" 0 -150 50 H V C CNN
 F2 "" 275 175 50 H I C CNN
 F3 "" 275 175 50 H I C CNN
 DRAW
@@ -22,11 +22,11 @@ X ~ D 200 25 79 L 28 20 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ProMicro-kbd-corne-light-rescue
+# ProMicro-kbd
 #
-DEF ProMicro-kbd-corne-light-rescue U 0 40 Y Y 1 F N
+DEF ProMicro-kbd U 0 40 Y Y 1 F N
 F0 "U" 0 950 60 H V C CNN
-F1 "ProMicro-kbd-corne-light-rescue" 0 -550 60 H V C CNN
+F1 "ProMicro-kbd" 0 -550 60 H V C CNN
 F2 "" 100 -1050 60 H V C CNN
 F3 "" 100 -1050 60 H V C CNN
 DRAW
@@ -58,11 +58,11 @@ X D7 9 -700 -50 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# SW_PUSH-kbd-corne-light-rescue
+# SW_PUSH-kbd
 #
-DEF SW_PUSH-kbd-corne-light-rescue SW 0 40 N N 1 F N
+DEF SW_PUSH-kbd SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "SW_PUSH-kbd-corne-light-rescue" 0 -80 50 H V C CNN
+F1 "SW_PUSH-kbd" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

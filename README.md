@@ -6,16 +6,6 @@ Currently they mostly have 36 keys (or less) which I consider to be as small as 
 
 Proceed with caution, and a little apprehension.
 
-## Quick facts
-
-Basically the 'normal' version of each type of keyboard are [Besom R](36keys/besom-r) (for 36 keys) and [Cradio F](34keys/cradio-f) (for 34 keys)
-
-### Besom R:
-![Besom R](https://raw.githubusercontent.com/davidphilipbarr/36keys/master/36Keys/besom-r/besomr.png)
-
-### Cradio F:
-![Cradio-f](https://raw.githubusercontent.com/davidphilipbarr/36keys/master/34Keys/Cradio%20F/34.png)
-
 
 ## About
 
@@ -41,20 +31,3 @@ There is also a stripped back 36 key firmware called cranorm, which can be used 
 ## FAQs
 
 Aren't all the splits basically the same board with the keys shuffled around? Yes.
-
-## Family
-
-### 36 keys
-
-* Besom r - Screen reversible pm footprint
-* Besom 10x10 - 36 keys on less than a 10x10pcb
-* Besom Ortho - ortho.
-* Besom Ortho Drop - Droppped pinky
-* Besom S - No Screen 1 way pm
-* Besom Pure - No Screen reversible pm footprint
-
-### 34 keys
-* Cradio F - Has thumbs like the ferris
-* Cradio S - Flat thumbs
-* Cradio 10 - 34 keys on less than a 10x10pcb
-* Sweep - Ferris type clone with choc spacing and promicros and nice sweeping ferris logo courtesy of the very kind [Pierre](https://github.com/pierrechevalier83/)
