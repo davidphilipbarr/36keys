@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name mkbd)(type KiCad)(uri /Users/adachi-kousuke/src/github.com/foostan/mkbd/pcb/mkbd.pretty)(options "")(descr ""))
-)
